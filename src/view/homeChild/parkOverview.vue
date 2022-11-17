@@ -566,11 +566,7 @@ export default {
       })
       .then(res => {
       });
-    
     //List
-
-
-
     //设置定时器
     this.timer1 = setInterval(() => {
       this.refreshData("pie1", this.pie1Option);
@@ -589,7 +585,7 @@ export default {
         .then(res => {
           this.getData("data/two");
         });
-    }, 4000);
+    }, 10000);
   },
   beforeDestroy() {
     clearInterval(this.timer1);
