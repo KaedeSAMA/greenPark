@@ -67,8 +67,8 @@
           v-model="fan_btn"
           active-color="#13ce66"
           inactive-color="#ff4949"
-          @change="changeStatus('FAN_SWITCH',$event)
-          "
+          @change="changeStatus('FAN_SWITCH',$event)"
+          :disabled="fan_auto_btn"
         ></el-switch>
         <div>风扇自动档开关</div>
         <el-switch
