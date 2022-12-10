@@ -27,11 +27,11 @@ export default {
           name: "园区概况",
           path: "/home/parkOverview"
         },
-        {
-          id: 2,
-          name: "报警中心",
-          path: "/home/warnCenter"
-        },
+        // {
+        //   id: 2,
+        //   name: "报警中心",
+        //   path: "/home/warnCenter"
+        // },
         {
           id: 3,
           name: "数据中心",
